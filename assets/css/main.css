@@ -50,13 +50,13 @@
       font-weight: 400; }
 
   strong {
-    color: #4ECDC4; }
+    color: #cd4e5b; }
   .projects strong:hover {
     color: #EE6C4D;
   }
 
   /* .about__text strong:hover {
-    color: #4ECDC4
+    color: #cd4e5b
   } */
   
   .wrapper {
@@ -313,12 +313,12 @@
     padding: 10px;
     font-size: 130%;
     transition-duration: 0.2s;
-    color: #4ECDC4;
+    color: #cd4e5b;
     background-color: #fbffff;
     
   }
   .button:hover {
-    background-color: #4ECDC4;
+    background-color: #cd4e5b;
     color: white;
   }
 
