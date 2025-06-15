@@ -97,6 +97,36 @@
                 </div>
             </div>
 
+            <!-- ****************** Photoelasticity *********************** -->
+            <hr>
+            <button class="accordion" id="photoelasticity">
+                <h1 class="page-title">
+                    <div class="page-title__text">
+                        Photoelasticity - Analysis of Stress Patterns in Complex Shapes with Deep Learning <a href="https://github.com/fs-bullard/photoelasticity" target="_blank"><strong><i class="fa fa-github"></i></strong></a>
+                    </div>
+                </h1>
+            </button>
+            <div class="panel">
+                <div style="text-align: center; font-size: 70%;">
+                    <img src="assets/img/ring_isotropic.gif" class="project-img" style="width:40%">
+                    <p><i><b>Fig. 1</b>: A ring under diametral compression illuminated by white light. 
+                        The polarisation of incident and outgoing light is changed by π / 10 radians between each frame, rotating the isoclinic fringes but keeping the isochromatics stationary.</i></p>
+                </div> 
+
+                <div id="describe-text">
+                    <p>
+                        Click <a href="assets/other/photoelasticity.pdf" target="_blank"><strong>here</strong></a> to read the full report. <br>
+                        <b>Abstract:</b> <br>
+                        Understanding how objects behave under stress is crucial in many areas of engineering and materials science, spanning applications from aerospace to bio-engineering. Several numerical methods of stress analysis for complex structures exist, but they are computationally intensive and, therefore, expensive to run. <span id="more">A cheaper, quicker and simpler alternative to such methods is therefore required. Such an alternative is the experimentally-based process of digital photoelasticity. In this report, two methods of digital photoelasticity are investigated: the analytical ten-step phase-shifting technique based on Jones calculus (Ramji and Ramesh, 2008), and StressUnet, a convolutional neural network based on the U-Net architecture (Zhao et al., 2022). The simplicity and low time requirement of stress analysis with StressUnet compared to stress analysis with the phase-shifting technique are highlighted. Both methods are shown to perform inconsistently when evaluated on experimentally obtained data, but StressUnet is shown to perform robustly when evaluated on a large, diverse set of computer-generated data. Experimental setup improvements for both methods are proposed, implementing the adaptive quality guided phase unwrapping algorithm (Ramji, 2010) and increasing the number of training epochs are suggested as improvements to the phase-shifting technique and StressUnet, respectively. </span>
+
+                        <a onclick="readMore()" id="readMore"><strong>Read more ...</strong></a>
+                    </p>
+                </div>
+
+                  
+            </div>
+
+
             <!-- *********************** End *************************** -->
 
             <hr>
