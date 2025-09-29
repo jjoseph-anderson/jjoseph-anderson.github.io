@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GM6SZZ7Y4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-6GM6SZZ7Y4');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Projects | Joseph Anderson</title>
+    <meta name="description" content="My personal website featuring some recent projects I have worked on.">
+
+    <link rel="canonical" href="/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript)
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59J3ZKGJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     End Google Tag Manager (noscript) -->
+  
+    <div class="wrapper">
+        <header class="header">
+            <div class="navigation">
+                <a href="/" class="logo no-underline">Joseph Anderson</a>
+                <ul class="menu">
+                    <li class="menu__entry"><a class="no-underline" href="/">Home</a></li>
+                    <li class="menu__entry"><a class="no-underline" href="/research.html">Research</a></li>
+                    <li class="menu__entry"><a class="no-underline" href="/projects.html">Projects</a></li>
+
+                    <a href="https://github.com/jjoseph-anderson" class="social-links__entry" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/josephanderson-ucd/" class="social-links__entry" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+
+                </ul>
+            </div>
+        </header>
+
+        <div class="projects">
+        
+            <h1 class="page-title">
+            <div class="page-title__text">Researcg</div>
+            </h1>
+
+            <div id="describe-text">
+                <p>
+                  These are some of the projects I have worked on. Click the titles for brief summaries. For a more in depth project description follow the links to their respective GitHub repositories.   
+                  
+                </p>
+            </div>
+
+            <!-- *********************** Summer Research - Droplet Impact Modelling *********************** -->
+            <hr>
+            <button class="accordion" id="droplet-impact">
+                <h1 class="page-title">
+                    <div class="page-title__text">
+                        Droplet Impact Modelling Using OpeanFOAM <a href="https://github.com/jjoseph-anderson/Droplet-Impacts-JA-Personal" target="_blank"><strong><i class="fa fa-github"></i></strong></a>
+                    </div>
+                </h1>
+            </button>
+            <div class="panel">   
+                
+                <div id="describe-text">
+                    <p>
+                        Click <a href="assets/reports/Droplet Modelling - Joseph Anderson.pdf" target="_blank"><strong>here</strong></a> to read the full report. <br>
+                        <b>Abstract:</b> <br>
+
+                        Previous work has successfully modelled water droplet impacts with reasonable accuracy to reality. This work mainly aims to improve the treatment of 
+                        the contact angle in the newly introduced 3D model. This will be performed using the open source CFD library OpenFOAM which will allow us to simulate the
+                        droplet impacts. The contact angle will be measured in experiment and then input into the OpenFOAM simulation in the hope to improve accuracy of the 3D model.
+                    </p>
+                </div>
+
+                <div id="describe-text">
+                    <p>
+                        The code for this project is available at <a href="https://github.com/jjoseph-anderson/Droplet-Impacts-JA-Personal" target="_blank"><strong>GitHub <i class="fa fa-github"></i></strong></a>
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- ****************** Final Year Thesis *********************** -->
+            <hr>
+            <button class="accordion" id="finalyearthesis">
+                <h1 class="page-title">
+                    <div class="page-title__text">
+                        Current Retrieval from Remote Sensing Images of Ocean Waves  <a href="https://github.com/jjoseph-anderson" target="_blank"><strong><i class="fa fa-github"></i></strong></a>
+                    </div>
+                </h1>
+            </button>
+            
+                <div id="describe-text">
+                    <p>
+                        Click <a href="assets/reports/UCD Thesis - Joseph Anderson.pdf" target="_blank"><strong>here</strong></a> to read the full report. <br>
+                        <b>Abstract:</b> <br>
+                        This work analyses the factors that influence current retrieval for both simulated and physical waves using radar images. 
+                        The Doppler shift velocities are related to the dispersion relation. These are found using one of three methods: least squares method, 
+                        normalized scalar product method or polar current shell method for simulated data. The normalized scalar product method is found to give the best results. 
+                        The depth dependent current is found using one of the following inversion methods: the effective depth method (EDM) or the newly introduced polynomial
+                        effective depth method (PEDM). For validation, the physical wave results are compared to measurements from an Acoustic Doppler Current Profiler (ADCP). 
+                        This thesis has been thefirst study of the PEDM on real ocean wave radar images. We found that the PEDM performed better than the EDM in all cases. 
+                        We have also uncovered a limitation of the PEDM in cases involving high shear currents.
+                    </p>
+                </div>
+
+                  
+            </div>
+
+
+            <!-- *********************** End *************************** -->
+
+            <hr>
+        </div>
+
+        <div class="about">
+            <div class="about__devider">-------</div>
+            <div class="about__text">
+                <strong> Joseph Anderson </strong>
+                <br> Get in touch at <a href="mailto:josephanderson7180@gmail.com">josephanderson7180@gmail.com</a>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
